@@ -75,6 +75,7 @@ Accéder à l’application
 Rendez-vous sur http://localhost:8000 via votre navigateur.
 
 🛠️ Structure du projet
+<pre>
 netcabinet/
 ├── public/               # Point d’entrée de l’application
 ├── src/
@@ -88,6 +89,7 @@ netcabinet/
 📌 Auteur & Licence
 Ce projet a été développé dans le cadre d’un projet académique.
 Licence : MIT
+</pre>
 
 📧 Contact
 Pour toute question ou amélioration, vous pouvez me contacter par GitHub ou email.
