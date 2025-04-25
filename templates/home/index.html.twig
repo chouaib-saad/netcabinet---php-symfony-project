@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="text-center mt-5">
+    <h1 class="display-4">Bienvenue sur <strong>NetCabinet</strong></h1>
+    <p class="lead mt-3">Votre application de gestion médicale</p>
+    <div class="mt-4">
+        <a href="{{ path('app_patient_index') }}" class="btn btn-primary btn-lg">Gérer les Patients</a>
+        <a href="{{ path('app_consultation_index') }}" class="btn btn-secondary btn-lg">Consulter les Consultations</a>
+        <a href="{{ path('app_prescription_index') }}" class="btn btn-success btn-lg">Voir les Ordonnances</a>
+    </div>
+</div>
+{% endblock %}
