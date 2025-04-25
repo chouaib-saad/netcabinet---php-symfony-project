@@ -88,7 +88,8 @@ netcabinet/
 ├── .env                  # Paramètres d’environnement
 📌 Auteur & Licence
 Ce projet a été développé dans le cadre d’un projet académique.
-Licence : MIT
+Licence : chouaib saad
+   linkedin : https://www.linkedin.com/in/chouaib-saad-bb4106219/
 </pre>
 
 📧 Contact
