@@ -54,9 +54,7 @@ Ce projet s’appuie sur une architecture MVC, utilise Composer pour la gestion 
    cd netcabinet
 Installer les dépendances avec Composer
 
-bash
-Copier
-Modifier
+
 composer install
 Configurer la base de données
 
@@ -66,24 +64,17 @@ Configurez les paramètres de connexion dans le fichier .env ou config/database.
 
 Générer les tables avec Doctrine
 
-bash
-Copier
-Modifier
+
 php bin/console doctrine:schema:update --force
 Démarrer le serveur PHP
 
-bash
-Copier
-Modifier
+
 php -S localhost:8000 -t public
 Accéder à l’application
 
 Rendez-vous sur http://localhost:8000 via votre navigateur.
 
 🛠️ Structure du projet
-bash
-Copier
-Modifier
 netcabinet/
 ├── public/               # Point d’entrée de l’application
 ├── src/
@@ -100,11 +91,3 @@ Licence : MIT
 
 📧 Contact
 Pour toute question ou amélioration, vous pouvez me contacter par GitHub ou email.
-
-yaml
-Copier
-Modifier
-
----
-
-Souhaites-tu aussi une version en anglais ou que je génère les fichiers `.env.example` et `composer.json` de base pour compléter ce projet ?
